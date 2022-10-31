@@ -11,3 +11,5 @@ In powershell, execute the commands:
 `Y`
 
 `Invoke-ps2exe <path of .ps1 file> <path for .exe file>`
+
+Run the executable as adminstrator.
