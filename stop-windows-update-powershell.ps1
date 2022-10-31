@@ -24,10 +24,10 @@ sc.exe config wuauserv start= disabled
 
 try {
     Remove-Item $download_dir_path_absolute -Recurse -Force -Confirm:$false -ErrorAction Stop
-    Write-Output "File deleted"
+    Write-Output "Folder deleted"
 }
 catch {
-    Write-Output "Unable to delete file. File does not exist"
+    Write-Output "Unable to delete folder. Directory does not exist"
 }
 
 Write-Output "`n--- End ---`n"
